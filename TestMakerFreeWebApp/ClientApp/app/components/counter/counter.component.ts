@@ -10,4 +10,7 @@ export class CounterComponent {
     public incrementCounter() {
         this.currentCount++;
     }
+    public startTask() {
+        alert("Task started");
+    }
 }
